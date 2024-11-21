@@ -1,0 +1,28 @@
+Package: HLAinTCGA
+Type: Package
+Title: Analysis of HLA Allele and Genotype Frequencies Across TCGA Projects
+Version: 1.0.0
+Author: Shahram Aliyari
+Maintainer: Shahram Aliyari <your_email@example.com>
+Description: 
+    HLAinTCGA provides functions to analyze and visualize the frequencies of HLA alleles and genotypes across various TCGA projects.
+    The package includes tools for stratification by demographic and clinical categories such as ethnicity, gender, race, and disease stage.
+    It offers flexible and interactive visualizations to aid research on allele distributions and their expression levels.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr,
+    cowplot,
+    scales,
+    grDevices,
+    randomcoloR
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5.0)
+Config/testthat/edition: 3
